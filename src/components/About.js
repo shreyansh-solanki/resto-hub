@@ -16,7 +16,7 @@ const About = () => {
 
 
             <h2 className='font-semibold text-[2.5rem] mb-5 text-orange-600 mt-5 md:text-[3rem]'>Our Team</h2>
-            <div className='grid lg:flex flex-grid gap-10 sm:gap-5 justify-center items-center sm:flex-cols-2 sm:grid-col-3'>
+            <div className='grid md:grid-cols-2 md:gap-10 gap-5 grid-cols-1 lg:grid-cols-3 '>
                 <div className="img-container flex justify-center items-center">
                     <div className="container mx-auto max-w-sm rounded-lg overflow-hidden shadow-lg my-2 bg-white">
                         <div className="relative z-10 flex justify-center items-center flex-col mt-2" >
